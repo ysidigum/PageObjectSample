@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-15T13:48:46 PST" name="Default suite" finished-at="2020-02-15T13:48:55 PST" duration-ms="8267">
+    <groups>
+    </groups>
+    <test started-at="2020-02-15T13:48:46 PST" name="Default test" finished-at="2020-02-15T13:48:55 PST" duration-ms="8267">
+      <class name="pageobjectmodel.PageObjectModel.OpenWebPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pageobjectmodel.PageObjectModel.OpenWebPage@17c1bced]" started-at="2020-02-15T13:48:46 PST" name="initialize" finished-at="2020-02-15T13:48:48 PST" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="openWebPage()[pri:0, instance:pageobjectmodel.PageObjectModel.OpenWebPage@17c1bced]" started-at="2020-02-15T13:48:48 PST" name="openWebPage" finished-at="2020-02-15T13:48:54 PST" duration-ms="5934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageobjectmodel.PageObjectModel.OpenWebPage@17c1bced]" started-at="2020-02-15T13:48:54 PST" name="tearDown" finished-at="2020-02-15T13:48:55 PST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageobjectmodel.PageObjectModel.OpenWebPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
