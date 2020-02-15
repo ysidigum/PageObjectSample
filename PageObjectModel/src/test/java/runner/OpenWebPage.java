@@ -7,16 +7,13 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
-import utilities.BasePage;
 
 public class OpenWebPage {
 
-	BasePage bp = null;
 	HomePage hm = null;
 	
 	@BeforeTest
 	public void initialize() {
-		bp = new BasePage();
 		hm = new HomePage();
 	}
 
@@ -35,6 +32,6 @@ public class OpenWebPage {
 
 	@AfterTest
 	public void tearDown() {
-		bp.getDriver().close();
+		hm.getDriver().close();
 	}
 }
