@@ -135,5 +135,15 @@ public class BasePage {
 
 		return flag;
 	}
+	
+	/*
+	 * Milli Seconds 
+	 */
+	public void hardSleep(long milliSecs) {
+		try {
+			Thread.sleep(milliSecs);
+		}catch (Exception e) {
+		}
+	}
 
 }
