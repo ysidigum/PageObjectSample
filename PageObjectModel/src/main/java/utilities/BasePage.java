@@ -57,7 +57,7 @@ public class BasePage {
 			e.printStackTrace();
 		}
 
-		System.setProperty("webdriver.chrome.driver", "/Users/ysidigum/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/CI_CD/PageObjectModel/chromedriver");
 		setDriver(new ChromeDriver());
 		webDriverWait = new WebDriverWait(driver, timeoutInSecs);
 		setLog(new LogLog());
